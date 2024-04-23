@@ -1,11 +1,11 @@
 {
-  "name": "tgmonitor",
+  "name": "typescript-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "esrun src/index.ts",
+    "start": "tsx ./src/index.ts",
     "lint": "eslint src/**/*.{js,ts} --quiet",
     "format": "prettier --write src/**/*.{js,ts,json}",
     "dev": "nodemon src/index.ts"
@@ -21,15 +21,12 @@
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
-    "esrun": "^3.2.26",
     "nodemon": "^3.0.3",
     "prettier": "^3.2.5",
     "typescript": "^5.3.3"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
-    "got": "^14.2.0",
-    "mysql2": "^3.9.1",
-    "mysql2-promise": "^0.1.4"
+    "tsx": "^4.7.2"
   }
 }
