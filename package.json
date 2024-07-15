@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.17.6",
     "@types/node": "^20.11.19",
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
@@ -27,6 +28,7 @@
   },
   "dependencies": {
     "dotenv": "^16.4.5",
+    "lodash": "^4.17.21",
     "tsx": "^4.7.2"
   }
 }
